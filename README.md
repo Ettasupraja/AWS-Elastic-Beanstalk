@@ -40,7 +40,7 @@ Access the application URL, verify successful deployment, and explore the associ
 ```bash
 aws elasticbeanstalk create-application \
 --application-name SampleWebApp
-
+```
 
 ### Create Environment
 
@@ -63,7 +63,6 @@ aws elasticbeanstalk describe-environments
 aws elasticbeanstalk describe-application-versions \
 --application-name SampleWebApp
 ```
-
 
 # OUTPUT
 
